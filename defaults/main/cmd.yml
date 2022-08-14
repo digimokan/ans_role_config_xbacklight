@@ -1,0 +1,4 @@
+# xbacklight commands to increase and decrease brightness by set increments
+xbacklight_cmd_inc_screen_brightness: "xbacklight -inc 5"
+xbacklight_cmd_dec_screen_brightness: "xbacklight -dec 5"
+
