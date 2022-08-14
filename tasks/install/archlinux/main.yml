@@ -1,0 +1,7 @@
+- name: "Install the 'xorg-xbacklight' application package"
+  ansible.builtin.package:
+    name: xorg-xbacklight
+    state: present
+  become: true
+  become_user: root
+
