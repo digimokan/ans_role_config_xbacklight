@@ -54,7 +54,7 @@ Install and configure the xbacklight screen brightness utility.
        - name: "Install and configure the xbacklight screen brightness utility"
          ansible.builtin.include_role:
            name: ans_role_config_xbacklight
-           public: yes
+           public: true
    ```
 
 ## Role Options
